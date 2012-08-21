@@ -1,0 +1,22 @@
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.htmlcapybara-*.html
+rspec
+/.bundle
+vendor/bundle
+/db/*.sqlite3
+/public/system/*
+/coverage/
+/spec/tmp/*
+**.orig
+rerun.txt
+pickle-email-*.html
+
+# Mac Artifacts
+.DS_Store
+
+# Traphouse Specific
+*.pid
+/log/*
+/tmp/pids/*

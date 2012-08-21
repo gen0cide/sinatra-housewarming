@@ -1,0 +1,14 @@
+redis:
+    host:     nil
+    port:     6379
+db:
+    type:     mysql2
+    host:     nil
+    name:     nil
+    user:     nil
+    pass:     nil
+    log:      nil
+    pool:     15
+web:
+    secret:   nil
+
