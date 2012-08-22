@@ -1,6 +1,6 @@
 # ------------------------------------------------------------------------------
 # Basic configurations
-chdir:                /Users/Alex/Code/sinatra-housewarming/
+chdir:                .
 environment:          production
 log:                  log/thin.log
 pid:                  tmp/pids/thin.pid
