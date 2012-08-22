@@ -30,3 +30,8 @@ To stop:
 ## Other
 
 If you have any suggestions, I'll appreciate to accept your pull request.
+
+## Shoutouts
+
+- [jwilkins](http://www.github.com/jwilkins) - For being an epic mentor.
+                                             - 
