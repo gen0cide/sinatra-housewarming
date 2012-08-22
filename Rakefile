@@ -24,4 +24,19 @@ namespace :db do
     puts "Redis and MySQL reset."
   end
 end
+
+desc "Start thin"
+task :start do
+  `thin -C config/thin.yml start`
+end
+
+desc "Stop thin"
+task :stop do
+  `thin -C config/thin.yml stop`
+end
+
+desc "Restart thin"
+task :restart do
+  `thin -C config/thin.yml restart`
+end
 # ------------------------------------------------------------------------------
